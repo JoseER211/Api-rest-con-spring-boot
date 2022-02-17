@@ -1,10 +1,8 @@
 package com.example.JoseER.Proyecto1.services;
-
 import com.example.JoseER.Proyecto1.models.usuarioModel;
 import com.example.JoseER.Proyecto1.repositories.usuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -34,7 +32,8 @@ public class usuarioService {
         try {
             usuarioRepository.deleteById(id);
             return true;
-        } catch (Exception err) {
+        }
+        catch (Exception err) {
             return false;
         }
     }
