@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/usuario")
+//Manda la petición desde la web. Encargado de mostrar los datos.
 public class usuarioController {
     @Autowired
     usuarioService usuarioService;

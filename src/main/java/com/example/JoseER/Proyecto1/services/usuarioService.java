@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 @Service
+//Ejecuta la lógica del pograma. Obtiene los datos, guarda los datos y elimina los datos.
 public class usuarioService {
     @Autowired
     usuarioRepository usuarioRepository;

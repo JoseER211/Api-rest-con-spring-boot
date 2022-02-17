@@ -3,7 +3,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "usuario")
-
+// Crea la tabla y los atributos, y agrega los atributos a la base de datos
 public class usuarioModel {
 
     @Id
